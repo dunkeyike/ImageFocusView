@@ -78,4 +78,7 @@ static CGFloat const kMaxOffset = 20;
     
     return url;
 }
+-(void)dismissFocusMedia {
+	NSLog(@"%s", __FUNCTION__);
+}
 @end
